@@ -1,3 +1,33 @@
-body {
-  background-color: yellow;
+html {
+  background-color: #00ffff;
+}
+
+body img {
+  height: 200px;
+  width: 1220px;
+  margin-left: -10px;
+  margin-right: -10px;
+  overflow-x: hidden;
+}
+
+nav {
+  float: left;
+  background-color: #7fffd4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1, h3, h4, p {
+  clear: left;
+  margin-left: 10px;
+}
+
+#gallery {
+  background-color: white;
+  padding: 5px;
+}
+#gallery img {
+  height: 400px;
+  width: 600px;
+  padding: 5px;
 }
